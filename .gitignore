@@ -1,0 +1,28 @@
+# Ignore temporary and generated files
+*.txt
+*_summary.txt
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+.envrc
+
+# Jupyter notebook checkpoints and metadata
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.log
+
+# SageMaker-specific metadata (if applicable)
+.sagemaker/
+
+# VS Code and editor settings
+.vscode/
+.idea/
+
+# OS and system files
+.DS_Store
+Thumbs.db
